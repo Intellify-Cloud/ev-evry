@@ -2,15 +2,15 @@
  * Button styling
  */
 
- .btn {
+.btn {
   @include heading-font;
   font-weight: 700;
 }
 
 .btn-xl {
-  font-size: 18px;
-  padding: 16px 32px;
-  margin: 4px;
+  font-size: 17px;
+  padding: 13px 26px 13px 26px;
+  margin: 8px;
 }
 
 .btn-primary {
@@ -26,7 +26,7 @@
   }
   &:active,
   &:focus {
-    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55,.5) !important;
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
   }
 }
 
@@ -45,6 +45,6 @@
   }
   &:active,
   &:focus {
-    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55,.5) !important;
+    box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
   }
 }

@@ -1,7 +1,7 @@
 <section class="page-section text-block" id="{{ site.data.sitetext.textblock-lite.section | default: 'textblock' }}">
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 text-center">
+      <div class="col-12 text-center">
         <h2 class="section-heading text-uppercase text-block-heading">{{ site.data.sitetext.textblock-lite.title | default: 'Text Text-Block' }}</h2>
         {% if site.data.sitetext.textblock-lite.text %}
         <h3 class="text-block-subheading">{{ site.data.sitetext.textblock-lite.text }}</h3>
@@ -9,22 +9,21 @@
       </div>
     </div>
     <div class="row justify-content-center">
-
-        <a class="btn btn-textblock-lite btn-xl text-uppercase js-scroll-trigger" href="/contact">Contact Us</a>
-      
-        <a class="btn btn-textblock-lite btn-xl text-uppercase js-scroll-trigger" href="https://form.jotform.com/230281488261052" target="_blank">Pre-Approval Application</a>
-      
+      <div class="col-md-6 col-lg-4">
+        <a class="btn btn-textblock-lite btn-xl btn-block text-uppercase js-scroll-trigger" href="/contact">Contact Us</a>
+      </div>
+      <div class="col-md-6 col-lg-4 mt-md-0 mt-3">
+        <a class="btn btn-textblock-lite btn-xl btn-block text-uppercase js-scroll-trigger" href="https://form.jotform.com/230281488261052" target="_blank">Pre-Approval Application</a>
+      </div>
     </div>
     <div class="row mt-3">
-      <div class="col-lg-1"></div>
-      <div class="col-lg-10 text-center">
+      <div class="col-12 text-center">
         {% if site.data.sitetext.textblock-lite.footer %}
-        <div class="text-muted w-100">
+        <div class="text-muted">
           <p>{{ site.data.sitetext.textblock-lite.footer | markdownify }}</p>
         </div>
         {% endif %}
       </div>
-      <div class="col-lg-1"></div>
     </div>
   </div>
 </section>
