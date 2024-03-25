@@ -1,18 +1,58 @@
-// Styling for the services section
-.container {
+/* Styling for the text block section */
+.text-block .container {
   max-width: 1050px;
 }
 
-.textblock-heading {
-  margin: 5px 0;
-  text-transform: none;
+.text-block-heading {
+  margin: 20px 0;
   color: #01acc8;
 }
 
-.textblock-image {
+.text-block-subheading {
+  margin-bottom: 30px;
+}
+
+.text-block-list {
+  list-style: none;
+  padding: 0;
+}
+
+.text-block-item {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.text-block-image {
   min-width: 50px;
 }
 
-.textblock-title {
-  line-height: 2em;
+.text-block-content {
+  margin-left: 15px;
+}
+
+.text-block-title {
+  line-height: 1.5;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-textblock-lite {
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .text-block-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .text-block-content {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .text-block-title {
+    font-size: 16px;
+  }
 }
