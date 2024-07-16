@@ -199,15 +199,6 @@ team:
           - url: mailto:paul.weaver@evogroup.co.za?subject=evo Everywhere Website Enquiry
             icon: fas fa-envelope
 
-      - name: "Stepanie-Ann De Marcy Pugin"
-        role: "Property Finance Consultant"
-        image: assets/img/team/Stepanie-Ann De Marcy Pugin evo Homeloans.jpg
-        social:
-          - url: tel:076 668 3618
-            icon: fas fa-phone
-          - url: mailto:stephanie.pugin@evogroup.co.za?subject=evo Everywhere Website Enquiry
-            icon: fas fa-envelope
-
       - name: "Zelda Weaver"
         role: "Property Finance Specialist"
         image: assets/img/team/Zelda Weaver evo Homeloans.jpg
