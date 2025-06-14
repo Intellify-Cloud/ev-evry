@@ -6,7 +6,7 @@ background: white
 
 <div>
     <iframe class="bond-calc" frameborder="0"
-        src="https://www.ooba.co.za/home-loan/extra-bond-payments-calculator/?iframe=true&iftype=nobrand"
+        src="http://www.ooba.co.za/calculators/additional-home-loan-repayment-calculator?iframe=true&iftype=evogroup"
         title="Extra Repayment Calculator"></iframe>
 </div>
 

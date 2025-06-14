@@ -29,7 +29,7 @@ $enable-gradients:false;
 @import "components/navbar.scss";
 @import "components/client-scroll.scss";
 
-@import "layout/masthead.scss";
+@import "layout/hero.scss";
 @import "layout/services.scss";
 @import "layout/portfolio.scss";
 @import "layout/team.scss";
@@ -37,6 +37,10 @@ $enable-gradients:false;
 @import "layout/footer.scss";
 @import "layout/clients.scss";
 @import "layout/textblock.scss";
+@import "layout/textblock-lite.scss";
+@import "layout/testimonials.scss";
+@import "layout/calculators.scss";
+
 
 body {
     overflow-x: hidden;

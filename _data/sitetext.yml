@@ -33,7 +33,7 @@ articles:
 
 calculators:
     title: "Home Loan Calculators"
-    text: "Use our Home loan Calculators to work out the size of home loan you are likely to qualify for and what your bond repayments will be."
+    text: "Use our calculators to work out the size of home loan you are likely to qualify for and what your bond repayments will be."
     section: calculators
     list:
       - title: "Bond Calculator"
@@ -58,20 +58,28 @@ calculators:
 
 more-calculators:
     title: "More Calculators"
-    text: ""
+    text: "These calculators help you understand your loan repayments, plan your deposit savings, and see how extra payments can shorten your mortgage term."
     section: more-calculators
     list:
+
+      - title: "Amortisation Calculator"
+        desc: "Calculate how your repayment is structured."
+        icon: fas fa-calculator   
+        link:
+          url: /amortisation-calculator
+          text: "Calculate"
+          
       - title: "Deposit Savings Calculator"
         desc: "Calculate how much you need to save for your deposit."
         icon: fas fa-calculator   
         link:
           url: /deposit-savings-calculator
           text: "Calculate"
-      - title: "Amortisation Calculator"
-        desc: "Calculate how your repayment is structured."
+      - title: "Additional Payment Calculator"
+        desc: "Calculate your savings on your total home loan cost by paying a little extra into your bond."
         icon: fas fa-calculator   
         link:
-          url: /amortisation-calculator
+          url: /additional-payment-calculator
           text: "Calculate"
 
 textblock:
@@ -92,8 +100,8 @@ textblock:
         image: "fa-user-shield"
 
 textblock-lite:
-    title: "GET HOME LOAN QUOTES FROM ALL THE <br> BANKS WITH ONE APPLICATION"
-    text: "GET PRE-APPROVED TODAY"
+    title: "Get home loan quotes from all the <br> banks with one application."
+    text: "Get pre-approved today."
     footer: "Our Bond Origination services are at no cost to you."
     section: textblock-lite
     list:
@@ -149,7 +157,7 @@ clients:
         logo: assets/img/clients/SBSA-bw.png
     
 team:
-    title: "THE TEAM"
+    title: "The Team"
     # text: "Lorem ipsum..."
     # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
     section: team
@@ -212,7 +220,7 @@ team:
 
  
 testimonials:
-    title: "TESTIMONIALS"
+    title: "Testimonials"
     text: "What Others Say About Us"
     section: testimonials
     people:

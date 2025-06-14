@@ -1,0 +1,116 @@
+// Styling for the masthead
+header.masthead {
+  text-align: center;
+  color: white;
+  background-image: url("#{$header-image}");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  height: 50vh;
+  min-height: 50vh;
+  overflow: hidden;
+
+  // Dark overlay for readability
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); // 30% black overlay
+    z-index: 1;
+  }
+
+  // Intro text centered using golden ratio
+  .intro-text {
+    position: absolute;
+    top: 61.8%;
+    left: 50%;
+    transform: translate(-50%, -38.2%);
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    padding: 0 1rem;
+
+    .intro-lead-in {
+      font-size: 22px;
+      font-style: italic;
+      line-height: 22px;
+      margin-bottom: 25px;
+      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+      @include serif-font;
+    }
+
+    .intro-heading {
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 50px;
+      margin-bottom: 25px;
+      text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+      @include heading-font;
+    }
+  }
+
+  // Responsive fallback for mobile devices
+  @media (max-width: 767.98px) {
+    .intro-text {
+      position: static;
+      transform: none;
+      padding-top: 120px;
+      padding-bottom: 80px;
+
+      .intro-lead-in {
+        font-size: 30px;
+        line-height: 34px;
+        margin-bottom: 15px;
+        text-shadow: 1px 1px 1px rgb(172, 172, 172);
+      }
+
+      .intro-heading {
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 60px;
+        text-shadow: 2px 2px 2px rgb(70, 70, 70);
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    height: 70vh;
+
+    .intro-text {
+      .intro-lead-in {
+        font-size: 36px;
+        line-height: 38px;
+      }
+
+      .intro-heading {
+        font-size: 60px;
+        line-height: 60px;
+      }
+    }
+  }
+
+  @media (min-width: 992px) {
+    height: 80vh;
+
+    .intro-text {
+      .intro-lead-in {
+        font-size: 44px;
+        line-height: 44px;
+      }
+
+      .intro-heading {
+        font-size: 70px;
+        line-height: 70px;
+      }
+    }
+  }
+
+  @media (min-width: 1200px) {
+    height: 70vh;
+  }
+}

@@ -4,16 +4,16 @@ nav:
 
   - title: "Services"
     section: services
-    
+
   - title: "Team"
     section: team
+
+  - title: "Testimonials"
+    section: testimonials
 
   - title: "Calculators"
     section: calculators
 
-  - title: "Testimonials"
-    section: testimonials
-    
   - title: "Contact"
     url: /contact
 
