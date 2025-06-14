@@ -19,12 +19,12 @@ services:
         link:
           url: tel:+27795620507
           text: "Call: 079 562 0507"
-      - title: "Still Looking for a Home"
+      - title: "Have Questions?"
         desc: "I'm searching property portals and visiting show houses but have a few questions."
         icon: fas fa-search
         link: 
           url: mailto:chanelle.macey@evogroup.co.za ?subject=Mail from evo Everywhere website
-          text: "Email Me"
+          text: "Email Us"
 
 articles:
     title: "Articles"
