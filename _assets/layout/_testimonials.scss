@@ -68,3 +68,11 @@
     color: #111;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .testimonials-section {
+    background-attachment: scroll; // Override broken fixed
+    background-size: contain; // Or a fixed pixel size like 2000px 1500px;
+    background-position: center top;
+  }
+}
